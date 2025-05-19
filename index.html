@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+  <style>
+    table,th,td{
+           border: 1px solid black;
+    }
+  </style>  
+</head>
+<body>
+  <section>
+    <div>
+  <header>
+    <nav>
+       <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+       </ul>
+    </nav>
+    <h1>Saeed Ahmad</h1>
+      </div>
+  </header>
+  </section> 
+  <section id="about">
+    <h2>About Me</h2>
+    <figure>
+      <img src="received_495692628963831.jpeg" alt="My Profile Picture" width="400" height="400">
+      <figcaption>That's Me!</figcaption>
+    </figure>
+      <article>
+        <p>My name is Sanni Sa'eed Ahmad,and i am a passionate website developer,based in Ogun State.I have always been facinated by how websites are being built .This is what led me to explore world of website where i have gained experience in wordpress,and a little bit of Html and Css.Over the past couple of years,i have been involve in various projects that have allowed me to hone my skill.I am a highly motivated and detailed-oriented with a strong work ethic and commitment to delivering high quality results. </p>
+      </article>
+      <div style="clear: both;"></div>
+  </section> 
+  <section id="skills">
+    <h2>Skills</h2>
+     <table>
+    <tr>
+        <th>Skill</th>
+        <th>Proficiency</th>
+         <th>Years of experience</th>
+    </tr>
+    <tr>
+        <td>wordpress</td>
+        <td>Advanced</td>
+         <td>9 months</td>
+
+    </tr>
+    <tr>
+        <td>Html</td>
+        <td>intermediate</td>
+        <td>1 month +</td>
+    </tr>
+    <tr>
+        <td>CSS</td>
+        <td>intermediate</td>
+        <td>1 month +</td>
+   
+   </table>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div>
+      <article>
+        <figure>
+          <img src="Screenshot (1).png" alt="project 1 preview" width="300" height="200">
+          <figcaption>Construction</figcaption>
+        </figure>
+        <p>A website showcasing how buildings are being constructed.</p>
+        <p><a href="http://saeed-ahmad-dev.infinityfreeapp.com/">Live Demo</a></p>
+      </article>
+      <article>
+        <figure>
+          <img src="FireShot Capture 011 - Contact – Moelagos - [moelagos.iblogger.org].png" alt="project 2 preview" width="300" height="200">
+          <figcaption>Moelagos</figcaption>
+        </figure>
+        <p>A website telling us about the minister of lagos.</p>
+        <p><a href="https://moelagos.iblogger.org/">Live Demo</a></p>
+      </article>
+      <article>
+        <figure>
+          <img src="FireShot Capture 018 - Services - Aetos Engineering and Lifts Company - [demo.aetosng.com].png" alt="project 3 preview" width="300" height="200">
+          <figcaption>Aetos</figcaption>
+        </figure>
+        <p>A leading engineering company and solution provider.</p>
+        <p><a href="https://demo.aetosng.com/">Live Demo</a></p>
+      </article>
+    </div>
+  </section>
+  <section id="multimedia">
+    <h2>multimedia</h2>
+    <div>
+      <h3>YouTube Video</h3>
+      <iframe src="https://www.youtube.com/embed/jdiy6sz1-fk" width="600" height="500"></iframe>
+    </div>
+    <h3>Audio File</h3>
+    <Audio controls src="https://cdn.pixabay.com/download/audio/2022/12/03/audio_b2e8943e74.mp3?filename=soft-corporate-ambient-12610.mp3
+       autoplay">your brouser does not support the audio element</Audio>
+  </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div>
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Message</legend>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <div>
+                    <label>Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+                <div>
+                    <label for="preferred-time">Preferred Contact Time:</label>
+                    <select id="preferred-time" name="preferred-time">
+                        <option value="">Any Time</option>
+                        <option value="morning">Morning (8 AM - 12 PM)</option>
+                        <option value="afternoon">Afternoon (12 PM - 5 PM)</option>
+                        <option value="evening">Evening (5 PM - 9 PM)</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the <a href="#">Terms & Conditions</a></label>
+                </div>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 My Portfolio. All rights reserved.</p>
+        <p>Connect with me: <a href="#">LinkedIn</a> | <a href="#">GitHub</a> | <a href="#">Twitter</a></p>
+    </footer>
+
+</body>
+</html>
